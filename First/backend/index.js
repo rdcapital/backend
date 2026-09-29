@@ -2,12 +2,15 @@
 const express = require('express');
 // install mongoose
 const mongoose = require('mongoose');
+const cors = require('cors');
 
 // import dotenv
 require("dotenv").config()
 
 // create the server
 const server = express()
+
+server.use(cors())
 
 // PORT NUMBER
 const PORT = process.env.PORT
