@@ -1,8 +1,8 @@
-import React from 'react'
-
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer className="site-footer">
+      <p>© 2026 StudentHub. Built for organized learning.</p>
+    </footer>
   )
 }
 
